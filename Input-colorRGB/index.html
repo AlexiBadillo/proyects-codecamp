@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="imagenes/paleta-de-color.png" type="image/x-icon">
+  <title>Input Color RGB</title>
+</head>
+<body>
+  <div class="contenedor-principal">
+    <div class="contenedor-interno">
+      <!--Rojo-->
+      <div class="color">
+        <label for="rojo">Rojo (R)</label>
+        <input type="range" id="rojo" min="0" max="255" value="23" step="1">
+        <p id="texto-rojo"></p>        
+      </div>
+      <!--Verde-->
+      <div class="color">
+        <label for="verde">Verde (G)</label>
+        <input type="range" id="verde" min="0" max="255" value="41" step="1">
+        <p id="texto-verde"></p>        
+      </div>
+      <!--Azul-->
+      <div class="color">
+        <label for="azul">Azul (B)</label>
+        <input type="range" id="azul" min="0" max="255" value="56" step="1">
+        <p id="texto-azul"></p>        
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
