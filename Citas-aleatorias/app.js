@@ -11,4 +11,4 @@ function cambiarCita() {
   autorElem.innerText = citas[indiceAleatorio].autor;
 }
 cambiarCita();
-botonElem.addEventListener('click', cambiarCita);
+botonElem.addEventListener('click', cambiarCita); 
