@@ -54,3 +54,48 @@ button {
   cursor: pointer;
   user-select: none;
 }
+/* Lista de tareas */
+#lista-de-tareas {
+  width: 80%;
+  margin-top: 20px;
+}
+.tarea {
+  width: 100%;
+  min-height: 70px;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #407ba6;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+/* tarea completada */
+.tarea.completada {
+  text-decoration: line-through;
+  background-color: black;
+  border: none;
+}
+.tarea p {
+  max-width: 350px;
+}
+/* Iconos */
+i {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.icono-completar {
+  color: rgb(0, 255, 0);
+}
+.icono-eliminar {
+  color: #fff;
+}
+.icono-completar:hover,
+.icono-eliminar:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
